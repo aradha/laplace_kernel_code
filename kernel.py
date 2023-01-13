@@ -30,7 +30,7 @@ class LaplaceKernel():
 
     def __init__(self, L=10):
         self.sol = None
-        self.L = 10
+        self.L = L
         self.X_train = None
 
     def fit(self, X, y, reg=0):
